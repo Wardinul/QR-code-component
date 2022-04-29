@@ -1,0 +1,52 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --white:hsl(0, 0%, 100%);
+    --light-gray:hsl(212, 45%, 89%);
+    --graish-blue:hsl(220, 15%, 55%);
+    --dark-blue:hsl(218, 44%, 22%);
+}
+
+body{
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.qr-code{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.main-card{
+    max-width: 350px;
+    background-color: var(--white);
+    padding: 1em;
+    border-radius: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin: 2em;
+}
+
+.info-text{
+    padding: 1em;
+}
+
+.info-text h2{
+    color: var(--dark-blue);
+}
+
+.info-text p{
+    color: var(--graish-blue);
+}
+
+.info-text h2,
+.info-text p{
+    margin: 1.5em 0;
+    text-align: center;
+}
