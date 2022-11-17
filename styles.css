@@ -64,21 +64,21 @@ footer a{
 }
 
 @media screen and (max-width:400px) {
-    .info-text h1{
+    .card__body__title{
         font-size: 20px;
         margin: 0;
 
     }
-    .info-text p{
+    .card__body__paragraph{
         font-size: 14px;
     }
 }
 
 @media screen and (max-width:300px) {
-    .info-text{
+    .card__body{
         padding: 0;
     }
-    .info-text h1{
+    .card__body__title{
         font-size: 15px;
     }
 }
