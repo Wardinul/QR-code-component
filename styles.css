@@ -48,8 +48,8 @@ body{
 }
 
 .card__body__title,
-.card__body__paragraphp{
-    margin: 1.5em 0;
+.card__body__paragraph{
+    margin: .5em 0;
     text-align: center;
 }
 
